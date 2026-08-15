@@ -1,0 +1,18 @@
+{
+  "name": "@airead/api-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./schema": "./src/schema.d.ts"
+  },
+  "scripts": {
+    "generate": "openapi-typescript ../../backend/openapi.json -o src/schema.d.ts"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^7.9.1",
+    "typescript": "^5.9.2"
+  }
+}
+

@@ -1,0 +1,10 @@
+{
+  "name": "airead",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "generate:api": "pnpm --filter @airead/api-client generate",
+    "build:web": "pnpm --filter @airead/web build"
+  }
+}
+
